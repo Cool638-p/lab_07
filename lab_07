@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoolD.exe | Gallery of mine</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background:#0d0d0d;
+      color:#eee;
+      font-family:'Inter',sans-serif;
+      min-height:100vh;
+      padding:40px 20px;
+    }
+    .wrap { max-width:1300px; margin:0 auto; }
+    h1 {
+      text-align:center;
+      font-size:3.5rem;
+      margin-bottom:12px;
+      background:linear-gradient(90deg,#00a18b,#009a1f);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+    .sub {
+      text-align:center;
+      margin-bottom:60px;
+      font-size:1.1rem;
+      opacity:0.8;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+      gap:28px;
+    }
+    .card {
+      background:#1a1a1a;
+      border-radius:18px;
+      overflow:hidden;
+      transition:0.4s;
+      position:relative;
+    }
+    .card:hover {
+      transform:translateY(-16px);
+      box-shadow:0 20px 40px rgba(0, 160, 152, 0.3);
+    }
+    .card img {
+      width:100%;
+      height:340px;
+      object-fit:cover;
+      transition:0.5s;
+    }
+    .card:hover img { transform:scale(1.08); }
+    .info {
+      padding:24px;
+      position:absolute;
+      bottom:0;
+      left:0;
+      right:0;
+      background:linear-gradient(transparent,#000);
+    }
+    .info h3 {
+      font-size:1.5rem;
+      margin-bottom:8px;
+    }
+    .info p {
+      font-size:0.95rem;
+      opacity:0.9;
+    }
+    @media(max-width:768px){
+      h1{font-size:2.8rem}
+      .grid{gap:20px}
+      .card img{height:280px}
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="wrap">
+    <h1>CoolD's Gallery</h1>
+    <p class="sub">one click = paradise</p>
+
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/SsP5rbhEj7oXR_gpg4SYfcUFcBYleymblcXAceZjNtIv7uPgHd7-fk6HyaNzeBIB3tQwusS4afIdC60B_g=w1000" alt="Гора">
+        <div class="info">
+          <h3>Чорногора 2025</h3>
+          <p>Коли свіже повітря вершини вражає наші легені</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.eos-magazine.com/system/cameras/mirrorless/ewExternalFiles/EOS-R5-II-press-header.jpg" alt="Камера">
+        <div class="info">
+          <h3>Canon EOS R5 Mark II</h3>
+          <p>Інструмент для фіксації нашого щастя</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwjsToasV9dLKy8mAYQ4YffN1E_1kzs4Ei0g&s" alt="Синевир">
+        <div class="info">
+          <h3>Синевир</h3>
+          <p>Кожен момент надає справжній спокій</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://test.edemtour.com.ua/images/22-%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B4%D0%BE%D0%B2%D0%BE%D0%BC-%D0%BF%D0%BE%D0%BB%D0%B5-%D0%B2-%D0%9F%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%81%D0%B5-%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F.jpg" alt="Лаванда">
+        <div class="info">
+          <h3>Лавандові поля</h3>
+          <p>Момент насолодження життя</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%93%D0%BE%D1%80%D0%B0-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D1%81-%D0%B7-%D1%8F%D0%B1%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%96.jpg/1200px-%D0%93%D0%BE%D1%80%D0%B0-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D1%81-%D0%B7-%D1%8F%D0%B1%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%96.jpg" alt="Зірки">
+        <div class="info">
+          <h3>Карпатські зірки</h3>
+          <p>Незабутня ніч коли небо показує свою красу</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.rbc.ua/static/img/_/m/_more4_unsplash_com_480x270.jpg" alt="Море">
+        <div class="info">
+          <h3>Чорне море на світанку</h3>
+          <p>Хвилі які ведуть нас в Аґарту</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
